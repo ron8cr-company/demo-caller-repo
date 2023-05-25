@@ -1,0 +1,6 @@
+---
+name: Push | GitHub Actions Demo
+on: push
+jobs:
+  call-workflow-in-another-repo:
+    uses: ron8cr-company/reusable-workflow/.github/workflows/main.yml@master
